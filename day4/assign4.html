@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assign4form</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+           
+        }
+        h2{font-family: 'Lucida Sans',  Verdana, sans-serif;
+             font-size: 40px;
+        }
+        p{font-family: 'Lucida Sans',  Verdana, sans-serif;
+            font-size: 16px; 
+
+        }
+        fieldset{
+            margin: 50px auto;
+            
+            width: 700px;
+            text-align: left;
+            background-color: darkgrey;
+        }
+        tr{
+            border: none;
+        }
+        td{
+            border: none;
+        }
+        .name-email{
+            width: 42%; padding: 20px;
+        }
+        .subject{width: 92%; padding: 20px;}
+        .submit{background-color:palevioletred; padding: 30px 50px 30px 50px; border: none;}
+        input{
+            font-family: 'Lucida Sans',  Verdana, sans-serif;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <form action="">
+        <h2><b>Business Inquiry </b> </h2>
+        <p>
+            Thank you for your interest in Indegence. Please fill the form below and
+             one of our team members will connect with you.
+        </p>
+        <table border="1" cellspacing="10px" cellpadding="10px" style="width: 100%;">
+            <tr>
+                
+                <td>
+                    <input class="name-email" type="text" name="fname" placeholder="NAME">
+                    <input  class="name-email" type="email" name="uemail" placeholder="E-mail">
+                </td>
+                
+            </tr>
+            <tr>
+                
+                <td>
+                    <input class="name-email" type="tel" name="tel" placeholder="Phone">
+                    <input class="name-email" type="text" name="company" placeholder="Company">
+                </td>
+                
+                
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="subject" type="text"placeholder="Subject">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea style="font-family: 'Lucida Sans',  Verdana, sans-serif;
+                    font-size: 16px; padding: 20px;" name="" id="" cols="60" rows="10">Message</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="submit" type="submit" value="Submit">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</fieldset>
+    
+</body>
+</html>
