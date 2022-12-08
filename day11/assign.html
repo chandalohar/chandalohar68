@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assign11</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        #display{
+            background-color: aliceblue;
+            width: 40%;
+            height: 100px;
+            text-align: center;
+            color:lightcoral;
+            padding: 30px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main id="background"> 
+        <h1>
+          Generate Random Background Colors with JavaScript
+        </h1>
+      
+    
+    <!-- //9.3  create a method to add background color to div element -->
+    <div id="display">This is div element
+        <button type="button" onclick="getName()">click</button>
+    </div><br><br>
+  
+<!-- <p onmouseover="alert('hello')">Mouse over!</p> -->
+<!-- // 9.4  write a js method, when user click on button, display random integer below it. -->
+
+<form>
+    <label for="name">Enter INTEGER</label>
+    <input id="number" placeholder="Please enter number" type="number"name="number"/>
+    
+    <button type="button" onclick="getNumber()">Submit</button><br><br>
+    <label for="decimal">Enter Number</label>
+  <input id="decimal" placeholder="Please enter number" type="number" name="decimal"/>
+  <button type="button" onclick="decimalNmber()">Submit</button>
+    
+  </form> 
+  <p id="num"> </p>
+  <!-- //9.5  write js function to format number up to specified decimal places. -->
+  
+  <p id="demo"></p>
+    
+  
+  
+    </main>
+
+    <script src="./js/script.js"></script>
+    <script src="js/bg.js"></script>
+</body>
+</html>
